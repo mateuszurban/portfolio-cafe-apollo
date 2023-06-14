@@ -53,7 +53,45 @@ table {
 body {
 	font-size: 16px;
 	font-family: 'Montserrat', "Arial", sans-serif;
+	/* Imported weights: 400, 700, 900 */
 	font-weight: 400;
+
+	background-color: #FFF0DB
 }
 
 /* Navbar section: */
+.navbar {
+}
+
+.navbar ul {
+	background-color: #47664C;
+	color: #FFF0DB;
+	height: 4rem;
+	font-weight: 700;
+
+	display: flex;
+	flex-wrap: nowrap;
+    align-items: center;
+
+	/* justify-content: center; */
+}
+
+.navbar li:first-of-type {
+	flex-grow: 7;
+}
+
+.navbar li {
+	flex-grow: 1;
+}
+
+.navbar .logo {
+	background-image: url(../assets/coffee-beans.png);
+	background-repeat: no-repeat;
+	
+	width: 48px;
+	height: 48px;
+	position: relative;
+	top: 30%;
+	margin-top: -24px;
+	margin-left: 16px;
+}
