@@ -6,6 +6,8 @@ import Benefits from './components/Benefits'
 import SocialProof from "./components/SocialProof"
 import Footer from './components/Footer'
 
+import './css/style.css'
+
 const App = () => {
     return (
         <>
