@@ -96,23 +96,28 @@ body {
 	margin-left: 16px;
 }
 
-.hero {
+.hero,
+.benefits {
 	height: 80vh;
 	display: flex;
 }
 
-.hero-headline {
+.hero-headline,
+.benefits-headline {
+	margin-top: 3rem;
 	width: 50%;
 	padding: 4rem 3rem 2rem 4rem;
 }
 
-.hero h2 {
+.hero h2,
+.benefits h2 {
 	font-size: 2rem;
 	margin-bottom: 1.2rem;
 	font-weight: 700;
 }
 
-.hero p {
+.hero p,
+.benefits p {
 	margin-bottom: 1rem;
 }
 
@@ -132,7 +137,40 @@ body {
 	background-image: url(../assets/devin-avery-kAV1KsIiqgw-unsplash.jpg);
 	background-repeat: no-repeat;
 	background-position-y: center;
+	background-size: 450px;
 	border-bottom-left-radius: 15px;
 	width: 45%;
-	/* height: 70vh; */
+}
+
+.benefits {
+
+}
+
+.benefits-img {
+	background-image: url(../assets/katya-ross-Adg9B8NTxj0-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: 750px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width: 45%;
+	position: relative;
+	top: -5rem;
+}
+
+.benefits em {
+	font-weight: 700;
+	font-style: italic;
+}
+
+.benefits button {
+	border-style: none;
+	background-color: #47664C;
+	color: #FFF0DB;
+	font-weight: 700;
+
+	width: 8rem;
+	border-radius: 15px;
+	padding: .5rem 1rem .5rem 1rem;
+	
 }
