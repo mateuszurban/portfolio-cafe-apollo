@@ -95,3 +95,44 @@ body {
 	margin-top: -24px;
 	margin-left: 16px;
 }
+
+.hero {
+	height: 80vh;
+	display: flex;
+}
+
+.hero-headline {
+	width: 50%;
+	padding: 4rem 3rem 2rem 4rem;
+}
+
+.hero h2 {
+	font-size: 2rem;
+	margin-bottom: 1.2rem;
+	font-weight: 700;
+}
+
+.hero p {
+	margin-bottom: 1rem;
+}
+
+.hero button {
+	border-style: none;
+	background-color: #47664C;
+	color: #FFF0DB;
+	font-weight: 700;
+
+	width: 5rem;
+	border-radius: 15px;
+	padding: .5rem 1rem .5rem 1rem;
+	
+}
+
+.hero-img {
+	background-image: url(../assets/devin-avery-kAV1KsIiqgw-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	border-bottom-left-radius: 15px;
+	width: 45%;
+	/* height: 70vh; */
+}

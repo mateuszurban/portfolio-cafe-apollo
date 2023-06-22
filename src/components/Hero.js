@@ -3,10 +3,14 @@ import React from 'react'
 const Hero = () => {
     return (
         <div className="hero">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, velit quod. Quia, delectus.</p>
-            <button>call to action</button>
-            <img src="" alt="" />
+            <div className="hero-headline">
+            <h2>Sustainable coffee for a better future.</h2>
+            <p>Coffee that's delicious and responsible. Supporting local communities and fighting for the planet.</p>
+            <button>Join us</button>
+            </div>
+            <div className="hero-img"></div>
+            
+            
             {/* relevant hero picture */}
         </div>
     )
