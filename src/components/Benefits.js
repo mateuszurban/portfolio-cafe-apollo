@@ -8,6 +8,7 @@ const Benefits = () => {
                 <h2>Company that serves.</h2>
                 <p>Apollo Cafe always aims towards fair trade practices. Income stability for farmers, promoting healthy environment and empowering communities. For now <em>and</em> for the future.</p>
                 <button className='button'>Visit our farms</button>
+                <button className='buttonAlt'>Learn more</button>
             </div>
         </div>
     )
