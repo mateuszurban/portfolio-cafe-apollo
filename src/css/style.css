@@ -109,15 +109,13 @@ body {
 	padding: 4rem 3rem 2rem 4rem;
 }
 
-.hero h2,
-.benefits h2 {
+h2 {
 	font-size: 2rem;
 	margin-bottom: 1.2rem;
 	font-weight: 700;
 }
 
-.hero p,
-.benefits p {
+p {
 	margin-bottom: 1rem;
 }
 
@@ -172,7 +170,6 @@ body {
 	width: 8rem;
 	border-radius: 15px;
 	padding: .5rem 1rem .5rem 1rem;
-	
 }
 
 .benefits .buttonAlt {
@@ -180,4 +177,63 @@ body {
 	color:#47664C;
 	border-style: solid;
 	margin-left: 1rem;
+}
+
+.proof {
+	display: flex;
+	flex-direction: column;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.proofStories {
+	display: flex;
+}
+
+.story {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.story * {
+	margin-bottom: .5rem;
+	text-align: center;
+
+}
+
+.story h4 {
+	font-size: .8rem;
+	
+}
+
+.story .authorRole {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.story .authorStory {
+	font-size: .8rem;
+	margin-bottom: 1rem;
+}
+
+.story button {
+	border-style: none;
+	background-color: #47664C;
+	color: #FFF0DB;
+	font-weight: 700;
+	
+	width: 7rem;
+	border-radius: 15px;
+	padding: .5rem 1rem .5rem 1rem;
+}
+
+.authorImage {
+	width: 75px;
+	height: 75px;
+	background-color: #47664C;
+	border-radius: 45px;
+	margin-bottom: 1rem;
 }

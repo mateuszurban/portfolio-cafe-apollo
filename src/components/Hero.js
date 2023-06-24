@@ -9,9 +9,6 @@ const Hero = () => {
             <button>Join us</button>
             </div>
             <div className="hero-img"></div>
-            
-            
-            {/* relevant hero picture */}
         </div>
     )
 }
