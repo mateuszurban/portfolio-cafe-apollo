@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -15,13 +16,9 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
-
-    
   "scripts": {
     "start": "webpack-dev-server --mode=development --open --hot",
     "build": "webpack --mode=production",
     "deploy-demo": "git push origin :gh-pages && git subtree push --prefix build origin gh-pages"
   }
-
-  
 }

@@ -237,3 +237,8 @@ p {
 	border-radius: 45px;
 	margin-bottom: 1rem;
 }
+
+a {
+	text-decoration: none;
+	color: #FFF0DB;
+}
