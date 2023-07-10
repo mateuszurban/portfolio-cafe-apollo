@@ -61,6 +61,8 @@ body {
 
 /* Navbar section: */
 .navbar {
+	position: sticky;
+	top: 0px;
 }
 
 .navbar ul {
@@ -77,7 +79,7 @@ body {
 }
 
 .navbar li:first-of-type {
-	flex-grow: 7;
+	flex-grow: 15;
 }
 
 .navbar li {
@@ -135,9 +137,10 @@ p {
 	background-image: url(../assets/devin-avery-kAV1KsIiqgw-unsplash.jpg);
 	background-repeat: no-repeat;
 	background-position-y: center;
-	background-size: 450px;
+	background-size: 850px;
 	border-bottom-left-radius: 15px;
 	width: 45%;
+
 }
 
 .benefits {
@@ -148,12 +151,11 @@ p {
 	background-image: url(../assets/katya-ross-Adg9B8NTxj0-unsplash.jpg);
 	background-repeat: no-repeat;
 	background-position-x: center;
-	background-size: 750px;
+	background-size: 850px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	width: 45%;
-	position: relative;
-	top: -5rem;
+	margin-top: -5rem;
 }
 
 .benefits em {
@@ -188,14 +190,16 @@ p {
 
 .proofStories {
 	display: flex;
+	padding-top: 4rem;
 }
 
 .story {
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 5rem;
 }
 
 .story * {
@@ -238,7 +242,47 @@ p {
 	margin-bottom: 1rem;
 }
 
-a {
+.navbar a {
 	text-decoration: none;
 	color: #FFF0DB;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #000;
+	padding: 0;
+}
+
+.footer {
+	background-color: #47664C;
+	color: #FFF0DB;
+	display: flex;
+	flex-direction: column column-reverse
+}
+
+.footer .links {
+	font-weight: 700;
+	padding: 2rem 6rem 2rem 50vw;
+	/* padding-left: 4rem; */
+}
+
+.footer .credits {
+	color: #000;
+	padding: 2rem;
+	font-size: .8rem;
+	padding: 2rem;
+	align-self: center;
+}
+
+.credits h4 {
+	padding-bottom: 1rem;
+	font-weight: 700;
+}
+
+.credits p {
+	margin-bottom: 0rem;
+}
+
+.links * {
+	padding: .5rem;
 }

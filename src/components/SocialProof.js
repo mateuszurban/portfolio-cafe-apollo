@@ -17,7 +17,7 @@ const SocialProof = () => {
                     <div className="authorImage"></div>
                     <h4 className='authorName'>George</h4>
                     <p className='authorRole'>Farming genius</p>
-                    <p className='authorStory'>Deserunt asperiores fugiat harum exercitationem amet illo accusamus distinctio? Nesciunt asperiores esse explicabo ipsa sequi saepe magni, a itaque reiciendis, sed dicta totam dolorum.</p>
+                    <p className='authorStory'>Deserunt fugiat harum exercitationem amet illo accusamus distinctio? Nesciunt asperiores esse explicabo ipsa sequi saepe magni, a itaque reiciendis, sed dicta totam dolorum.</p>
                     <button>Read more</button>
                 </div>
                 <div className="story">
