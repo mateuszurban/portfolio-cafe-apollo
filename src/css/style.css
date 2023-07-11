@@ -89,7 +89,6 @@ body {
 .navbar .logo {
 	background-image: url(../assets/coffee-beans.png);
 	background-repeat: no-repeat;
-	
 	width: 48px;
 	height: 48px;
 	position: relative;
@@ -108,7 +107,7 @@ body {
 .benefits-headline {
 	margin-top: 3rem;
 	width: 50%;
-	padding: 4rem 3rem 2rem 4rem;
+	padding: 7rem 10rem 2rem 5rem;
 }
 
 h2 {
@@ -143,10 +142,6 @@ p {
 
 }
 
-.benefits {
-
-}
-
 .benefits-img {
 	background-image: url(../assets/katya-ross-Adg9B8NTxj0-unsplash.jpg);
 	background-repeat: no-repeat;
@@ -161,6 +156,17 @@ p {
 .benefits em {
 	font-weight: 700;
 	font-style: italic;
+}
+
+.benefits a,
+.story a,
+.footer .links a {
+	text-decoration: none;
+	color: #FFF0DB;
+}
+
+.benefits .buttonAlt a {
+	color: #47664C
 }
 
 .benefits button {
@@ -242,7 +248,8 @@ p {
 	margin-bottom: 1rem;
 }
 
-.navbar a {
+.navbar a,
+.hero a {
 	text-decoration: none;
 	color: #FFF0DB;
 }
