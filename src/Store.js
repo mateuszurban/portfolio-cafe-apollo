@@ -9,7 +9,9 @@ const Store = () => {
     return (
         <>
         <Nav/>
-        <h2>this will become a "Store" section</h2>
+        <div className="store">
+            <h2>Store will appear here, soon.</h2>
+        </div>
         <Footer/>
         </>
     )

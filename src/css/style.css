@@ -294,6 +294,49 @@ p {
 	padding: .5rem;
 }
 
+.mission,
+.store,
+.stories,
+.team {
+	padding: 5rem;
+}
+
+.team h4 {
+	font-weight: 500;
+	font-size: 1.4rem;
+	padding-bottom: .6rem;
+}
+
+.team p {
+	padding-bottom: 1rem;
+}
+
+.team .personPicture {
+	background-color: #47664C;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 45px;
+	margin-bottom: 1rem;
+}
+
+.post {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.postTitle {
+	margin-bottom: 10px;
+	font-size: 1.4rem;
+}
+
+.postDetails {
+	margin-bottom: 1rem;
+}
+
+.postContent {
+	font-size: 1.2rem;	
+	margin-bottom: 4rem;
+}
 
 @media screen and (max-width: 576px) {
 	body {
