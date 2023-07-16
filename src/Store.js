@@ -1,18 +1,22 @@
 import React from "react";
 
-import Nav from "./components/Nav";
-import Footer from './components/Footer'
+import Nav from "./components/Nav"
+import StoreNav from "./components/StoreNav";
+import Footer from './components/Footer';
+import StoreItems from './components/StoreItems'
 
 import './css/style.css'
+
+
 
 const Store = () => {
     return (
         <>
         <Nav/>
-        <div className="store">
-            <h2>Store will appear here, soon.</h2>
-        </div>
-        <Footer/>
+        <h2>Store will appear here.</h2>
+        {/* <StoreNav/>
+        <StoreItems/>
+        <Footer/> */}
         </>
     )
 }

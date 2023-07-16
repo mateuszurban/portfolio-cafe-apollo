@@ -71,12 +71,14 @@ p {
 }
 
 /* Navbar section: */
-.navbar {
+.navbar, 
+.storeNavbar {
 	position: sticky;
 	top: 0px;
 }
 
-.navbar ul {
+.navbar ul,
+.storeNavbar ul {
 	background-color: #47664C;
 	color: #FFF0DB;
 	height: 4rem;
@@ -87,15 +89,18 @@ p {
     align-items: center;
 }
 
-.navbar li:first-of-type {
+.navbar li:first-of-type,
+.storeNavbar li:first-of-type {
 	flex-grow: 15;
 }
 
-.navbar li {
+.navbar li,
+.storeNavbar li {
 	flex-grow: 1;
 }
 
-.navbar .logo {
+.navbar .logo,
+.storeNavbar .logo {
 	background-image: url(../assets/coffee-beans.png);
 	background-repeat: no-repeat;
 	width: 48px;
@@ -122,6 +127,7 @@ p {
 	background-image: url(../assets/devin-avery-kAV1KsIiqgw-unsplash_edited.jpg);
 	width: 45vw;
 	background-position: center;
+	background-size: cover;
 	border-bottom-left-radius: 45px;
 }
 
@@ -129,6 +135,7 @@ p {
 	background-image: url(../assets/katya-ross-Adg9B8NTxj0-unsplash_edited.jpg);
 	width: 45vw;
 	background-position: center;
+	background-size: cover;
 	border-top-right-radius: 45px;
 	border-bottom-right-radius: 45px;
 }
@@ -242,7 +249,8 @@ p {
 }
 
 .navbar a,
-.hero a {
+.hero a,
+.storeNavbar a {
 	text-decoration: none;
 	color: #FFF0DB;
 }
@@ -290,7 +298,8 @@ p {
 .mission,
 .store,
 .stories,
-.team {
+.team,
+.items {
 	padding: 5rem;
 }
 
@@ -330,6 +339,46 @@ p {
 	font-size: 1.2rem;	
 	margin-bottom: 4rem;
 }
+
+/* Store section: */
+
+.items {
+	background-color: #fff;
+	display: flex;	
+}
+
+.item {
+	width: 16rem;
+	height: 22rem;
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+}
+
+.itemImage {
+	padding: 1rem;
+	background-color: #47664C;
+	width: auto;
+	height: 14rem;
+}
+
+.itemName {
+	font-size: 1.4rem;
+	font-weight: 700;
+	padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.itemPrice {
+	font-size: 1.2;
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+.itemAddToCartButton {
+	padding: 1rem 1rem 1rem 1rem;
+	font-weight: 900;
+}
+
+/* Breakpoints section: */
 
 @media screen and (max-width: 576px) {
 	body {
