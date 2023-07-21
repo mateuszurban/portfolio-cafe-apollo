@@ -5,6 +5,7 @@ import Mission from "./Mission";
 import Team from "./Team";
 import Stories from "./Stories";
 import Store from "./Store"
+import Cart from "./Cart"
 
 const RouteSwitch = () => {
   return (
@@ -15,6 +16,7 @@ const RouteSwitch = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/store" element={<Store />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<App />} />
       </Routes>
     </BrowserRouter>
